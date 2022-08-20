@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-nav {
-  padding-left: 60%;
+  padding-left: 50%;
 }
 
 .dropdown-menu {
@@ -47,31 +47,8 @@ body {
 }
 
 .home-hero {
-  background: url('https://res.cloudinary.com/drtvwsp1x/image/upload/v1661008270/background-images/cmk-bg_mgrz8e.jpg') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/drtvwsp1x/image/upload/v1661008270/background-images/cmk-bg_mgrz8e.jpg') no-repeat center center
+    fixed;
   background-size: cover;
   height: calc(65vh - 164px);
-}
-
-
-.footer-text {
-  font-family: Barlow Condensed;
-  color: #fff9ec;
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-
-.footer-text a {
-  text-decoration: underline !important;
-}
-
-.footer-text a:hover {
-  color: #E072A4 !important;
-}
-
-.fa-style {
-  color: #fff9ec;
-}
-
-.fa-style:hover {
-  color: #E072A4 !important;
 }

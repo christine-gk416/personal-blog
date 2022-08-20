@@ -55,23 +55,6 @@ body {
 
 .footer-text {
   font-family: Barlow Condensed;
-  color: #fff9ec;
   font-weight: 400;
-  font-size: 1.4rem;
-}
-
-.footer-text a {
-  text-decoration: underline !important;
-}
-
-.footer-text a:hover {
-  color: #E072A4 !important;
-}
-
-.fa-style {
-  color: #fff9ec;
-}
-
-.fa-style:hover {
-  color: #E072A4 !important;
+  font-size: 1.2rem;
 }

@@ -3,24 +3,23 @@
 
 {% block content %}
 
-<div class="h-100 home-hero">
-    <div class="row h-100">
-        <div class="col-12">
-            <h1 class="display-4 text-center subtext">
-                
-                    a writer/coder hybrid blog
-               
-            </h1>
-        </div>
-    </div>
-    <hr>
-</div>
-
 <div class="container-fluid">
+
+    <div class="row home-hero">
+    
+        
+            <div class="col-12">
+                <h1 class="display-4 text-center subtext">
+                    
+                        a writer/coder hybrid blog
+                   
+                </h1>
+            </div>
+    </div>
     <div class="row">
 
         <!-- Blog Entries Column -->
-        {% comment %} <div class="col-12 mt-3 left">
+        <div class="col-12 mt-3 left">
             <div class="row">
 
 
@@ -38,7 +37,7 @@
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
-                            <a href="{% url 'post' post.slug %}" class="post-link">
+                            <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
@@ -59,7 +58,7 @@
 
                 {% endfor %}
             </div>
-        </div> {% endcomment %}
+        </div>
     </div>
 
     {% if is_paginated %}
