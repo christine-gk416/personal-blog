@@ -87,13 +87,12 @@ hr {
   bottom: 5%;
   min-width: 30%;
   left: -2px;
-  background-color: #4c3b4d
+  background-color: #23BBBB;
 }
 
 .author {
-  color: #fff9ec;;
-  margin: 12px;
-  font-family: Roboto Mono;
+  color: white;
+  margin: 4px;
   text-transform: uppercase;
 }
 

@@ -19,7 +19,7 @@
     <div class="row">
 
         <!-- Blog Entries Column -->
-        <div class="col-12 mt-5 left">
+        <div class="col-12 mt-4 left">
             <div class="row">
 
 
@@ -38,14 +38,13 @@
                                 </div>
                             </div>
                             <a href="#" class="post-link">
-                                <h2 class="card-title text-center">{{ post.title }}</h2>
-                                <p class="card-text card-excerpt">{{ post.excerpt }}</p>
+                                <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.excerpt }}</p>
                             </a>
 
                             <hr />
-                            <p class="card-text">{{ post.created_on }}
-                                <i class="fas fa-angle-up text-success ms-3"></i>{{ post.number_of_likes }}
-                                <i class="fas fa-angle-down text-danger ms-3"></i>{{ post.number_of_dislikes }}
+                            <p class="card-text text-muted h6">{{ post.created_on }}
+                                <i class="far fa-heart"></i>{{ post.number_of_likes }}
                             </p>
 
                         </div>
