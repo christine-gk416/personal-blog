@@ -12,6 +12,7 @@ body {
   font-size: 2.2rem;
   font-weight: 300;
   color: #4c3b4d !important;
+  padding-left: 2% !important; 
 }
 
 .nav-item {
@@ -72,10 +73,6 @@ body {
 
 a.post-link {
   text-decoration: none !important;
-}
-
-.text-up {
-  color: #a3b18a !important;
 }
 
 hr {

@@ -14,6 +14,15 @@ body {
   color: #4c3b4d !important;
 }
 
+.navbar-brand
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: right;
+  margin: auto;
+}
+
 .nav-item {
   font-family: Barlow Condensed;
   font-size: 1.6rem;
@@ -72,10 +81,6 @@ body {
 
 a.post-link {
   text-decoration: none !important;
-}
-
-.text-up {
-  color: #a3b18a !important;
 }
 
 hr {
